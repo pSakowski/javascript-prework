@@ -42,34 +42,10 @@ if( computerMove == 'kamień' && playerMove == 'papier'){
     printMessage('Ty wygrywasz!');
   }
 
-  if( computerMove == 'kamień' && playerMove == 'kamień'){
-    printMessage('Remis!');
+  else if(computerMove == playerMove){
+    printMessage ('Remis!');
   }
 
-  if( computerMove == 'kamień' && playerMove == 'nożyce'){
-    printMessage('Ty przegrywasz!');
-  }
-
-  if( computerMove == 'nożyce' && playerMove == 'papier'){
-    printMessage('Ty przegrywasz!');
-  }
-
-  if( computerMove == 'nożyce' && playerMove == 'kamień'){
-    printMessage('Ty wygrywasz!');
-  }
-
-  if( computerMove == 'nożyce' && playerMove == 'nożyce'){
-    printMessage('Remis!');
-  }
-
-  if( computerMove == 'papier' && playerMove == 'papier'){
-    printMessage('Remis!');
-  }
-
-  if( computerMove == 'papier' && playerMove == 'kamień'){
-    printMessage('Ty przegrywasz!');
-  }
-
-  if( computerMove == 'papier' && playerMove == 'nożyce'){
-    printMessage('Ty wygrywasz!');
+  else {
+    printMessage ('Przegrywasz!');
   }
