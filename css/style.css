@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  font-size: 58px;
+  line-height: 1.5;
+  padding: 0px 0px;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+}
+
+h2 {
+  font-size: 31px;
+  color: red;
+}
+
+h3 {
+  font-size: 31px;
+  color: red;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFNBQUE7RUFDQSxrQkFBQTtFQUNBLHVCQUFBO0VBQ0EsYUFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGdCQUFBO0FDQ0o7O0FERUE7RUFDSSxlQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREVBO0VBQ0ksZUFBQTtFQUNBLFVBQUE7QUNDSjs7QURFQTtFQUNJLGVBQUE7RUFDQSxVQUFBO0FDQ0o7O0FERUE7RUFDSSxZQUFBO0VBQ0EsZUFBQTtBQ0NKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
