@@ -1,7 +1,6 @@
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
-
 function playGame(playerInput){
 
   function getMoveName(argMoveId){
@@ -75,6 +74,7 @@ function playGame(playerInput){
   }
 
   displayResult(computerMove, playerMove);
+  clearMessages();
 }
 
 document.getElementById('play-rock').addEventListener('click', function(){
