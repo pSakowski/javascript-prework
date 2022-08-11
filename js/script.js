@@ -29,7 +29,6 @@ function playGame(playerInput){
 
   printMessage('Twój ruch to: ' + playerMove);
 
-
   function displayResult(argComputerMove, argPlayerMove){
     console.log('Komputer wybrał:', argComputerMove, 'Gracz wybrał:', argPlayerMove);
     if((argComputerMove == 'kamień' && argPlayerMove == 'papier') ||
